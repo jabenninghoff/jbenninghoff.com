@@ -1,0 +1,4 @@
+/* prevent head shot from being cropped on mobile */
+.image {
+    min-height: 900px;
+}

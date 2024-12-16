@@ -3,6 +3,9 @@ languageCode = 'en-us'
 title = 'John Benninghoff'
 theme = 'split'
 
+[params.custom.css]
+  enable = true
+
 # Note: the Split theme documentation says to use [[params.visual.image]] (https://github.com/escalate/hugo-split-theme)
 # which conflicts with the example at https://github.com/escalate/hugo-split-theme/blob/master/tests/exampleSiteWithImage/hugo.toml
 [params.visual.image]
