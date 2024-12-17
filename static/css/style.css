@@ -1,4 +1,15 @@
 /* prevent head shot from being cropped on mobile */
-.image {
-    min-height: 900px;
+@media screen and (max-width: 991px) { /* $bp-smallish */
+    .image {
+        height: 900px;
+        max-height: none;
+        min-height: auto;
+    }
+}
+
+@media screen and (max-width: 479px) { /* $bp-mobile */
+    .image {
+        height: 375px;
+        max-height: none;
+    }
 }
