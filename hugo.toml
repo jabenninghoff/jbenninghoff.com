@@ -1,7 +1,11 @@
+# Hugo Configuration https://gohugo.io/configuration/all/
 baseURL = 'https://jbenninghoff.com/'
 languageCode = 'en-us'
 title = 'John Benninghoff'
 theme = 'split'
+
+# build settings
+cleanDestinationDir = true
 
 [params.custom.css]
   enable = true
