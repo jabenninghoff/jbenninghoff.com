@@ -7,6 +7,9 @@ theme = 'split'
 # build settings
 cleanDestinationDir = true
 
+[params]
+  favicon = "favicon.ico"
+
 [params.custom.css]
   enable = true
 
