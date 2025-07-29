@@ -2,10 +2,13 @@
 baseURL = 'https://jbenninghoff.com/'
 languageCode = 'en-us'
 title = 'John Benninghoff'
-theme = 'split'
 
 # build settings
 cleanDestinationDir = true
+
+[module]
+  [[module.imports]]
+    path = 'github.com/escalate/hugo-split-theme'
 
 [params]
   favicon = "favicon.ico"
