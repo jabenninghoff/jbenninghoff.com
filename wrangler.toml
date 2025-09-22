@@ -1,7 +1,9 @@
 # Cloudflare wrangler configuration https://developers.cloudflare.com/workers/wrangler/configuration/
 name = "jbenninghoff-com"
 pages_build_output_dir = "public"
-compatibility_date = "2025-09-22"
+compatibility_date = "2025-09-15"
 
 [vars]
 HUGO_VERSION = "0.150.0"
+[env]
+production = { }
