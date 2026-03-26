@@ -1,3 +1,5 @@
+// https://gohugo.io/hugo-modules/use-modules/
+
 module github.com/jabenninghoff/jbenninghoff.com
 
 go 1.24.5
