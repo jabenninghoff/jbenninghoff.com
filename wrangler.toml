@@ -1,4 +1,5 @@
 # Cloudflare wrangler configuration https://developers.cloudflare.com/workers/wrangler/configuration/
+# Hugo docs: https://gohugo.io/host-and-deploy/host-on-cloudflare/
 name = "jbenninghoff-com"
 pages_build_output_dir = "public"
 compatibility_date = "2026-01-07"
