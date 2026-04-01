@@ -1,5 +1,8 @@
 # linguist overrides (https://github.com/github-linguist/linguist/blob/main/docs/overrides.md)
 static/** linguist-vendored
+.vscode/** linguist-vendored
+README.md linguist-documentation
 
-# detect Markdown
+# detect Markdown, TOML
 *.md linguist-detectable
+*.toml linguist-detectable
