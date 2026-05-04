@@ -1,6 +1,6 @@
 # Hugo Configuration https://gohugo.io/configuration/all/
 baseURL = 'https://jbenninghoff.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'John Benninghoff'
 
 # build settings
