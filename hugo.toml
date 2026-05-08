@@ -34,10 +34,9 @@ cleanDestinationDir = true
       text = "Transvasive"
       url = "https://transvasive.com"
 
-    # Replace with Blento: https://github.com/flo-bit/blento
-    # [[params.links.list1.link]]
-    #   text = "Bento"
-    #   url = "https://bento.me/jbenninghoff"
+    [[params.links.list1.link]]
+      text = "Blento"
+      url = "https://blento.app/jbenninghoff.com"
 
 [[params.links]]
   [params.links.list2]
