@@ -2,6 +2,6 @@
 
 module github.com/jabenninghoff/jbenninghoff.com
 
-go 1.26.5
+go 1.27.1
 
 require github.com/escalate/hugo-split-theme v1.9.0 // indirect
