@@ -4,7 +4,7 @@ locale = 'en-us'
 title = 'John Benninghoff'
 
 # build settings
-cleanDestinationDir = true
+build.cleanDestinationDir.enable = true
 
 [module]
   [[module.imports]]
